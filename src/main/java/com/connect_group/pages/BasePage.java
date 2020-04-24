@@ -28,7 +28,7 @@ public class BasePage {
     PageFactory.initElements(driver, this);
   }
 
-  private WebDriver getDriver() {
+  protected WebDriver getDriver() {
     return driver;
   }
 
